@@ -137,7 +137,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "*I AM ALIVE 🙂 CODDED BY ALINSHAN*"
+            "value": "*I AM ALIVE 😊 CODDED BY ALINSHAN*"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",

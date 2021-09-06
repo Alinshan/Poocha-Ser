@@ -1,5 +1,5 @@
 /* Codded by @Ravindu Manoj
-Re edited by hisham-Muhammed
+Re edited by alinshan
 Telegram: t.me/RavinduManoj
 Facebook: https://www.facebook.com/ravindu.manoj.79
 

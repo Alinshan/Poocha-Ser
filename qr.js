@@ -45,7 +45,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*ഈ cod ആർക്കും share ചെയ്ണ്ടട്ടോ 😁🙂£Information From Hisham Muhammed!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'*ഈ cod ആർക്കും share ചെയ്ണ്ടട്ടോ 😁🙂£Information From ALINSHAN!*', MessageType.text)
             console.log(
                 chalk.blue.bold('If you are installing locale, you can start the bot with node bot.js')
             );

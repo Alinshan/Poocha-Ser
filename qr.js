@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re edited by hisham-Muhammed
+re edited by alinshan
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*ഈ cod ആർക്കും share ചെയ്ണ്ടട്ടോ 😁🙂£Information From ALINSHAN!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'*ഈ code ആർക്കും share ചെയ്ണ്ടട്ടോ 😁🙂£Information From ALINSHAN!*', MessageType.text)
             console.log(
                 chalk.blue.bold('If you are installing locale, you can start the bot with node bot.js')
             );

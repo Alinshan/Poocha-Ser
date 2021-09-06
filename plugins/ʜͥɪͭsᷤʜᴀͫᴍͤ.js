@@ -1,8 +1,7 @@
-/* Copyright (C) 2021 Hisham .
+/* Copyright (C) 2021 ALINSHAN .
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Youtube https://youtube.com/c/ICHUTECH
 */
 
 const Asena = require('../events');
@@ -21,7 +20,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/bts?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Sophia bot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 
@@ -29,7 +28,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/exo?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Sophia bot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 
@@ -37,7 +36,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/blackpink?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Sophia bot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 }
@@ -47,7 +46,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/bts?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | SOPHIA BOT'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 
@@ -55,7 +54,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/exo?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | SOPHIA BOT'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 
@@ -63,7 +62,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.lolhuman.xyz/api/random/blackpink?apikey=queenamdipublic`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Sophia bot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | POOCHA SER'})
 
     }));
 }

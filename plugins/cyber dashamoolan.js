@@ -32,7 +32,7 @@ if (Config.WORKTYPE == 'private') {
 
 		const json = JSON.parse(response.body);
 
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, ' \n\n*Sophia* 😘' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
+	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, ' \n\n*Poocha Ser* 😘' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
 
 	} catch {
 
@@ -58,7 +58,7 @@ else if (Config.WORKTYPE == 'public') {
 
 		const json = JSON.parse(response.body);
 
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, ' \n\n*Sophia* 😘' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
+	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, ' \n\n*Poocha Ser* 😘' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
 
 	} catch {
 

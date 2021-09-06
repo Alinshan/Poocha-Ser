@@ -1,8 +1,7 @@
 <div align="center">
 # 𝐏𝐎𝐎𝐂𝐇𝐀 𝐒𝐄𝐑
-  </div>
-
-Simple whatsapp bot | Reedited from whatsasena 
+Simple whatsapp bot | Reedited from whatsasena
+</div>
 
 
 

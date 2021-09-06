@@ -1,7 +1,6 @@
 /* Codded by @Ravindu Manoj
-reedited by hisham
-sophia 2.3
-
+reedited by alinshan
+poocha ser
 Telegram: t.me/RavinduManoj
 Facebook: https://www.facebook.com/ravindu.manoj.79
 

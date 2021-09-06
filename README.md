@@ -1,6 +1,6 @@
 
 # 𝐏𝐎𝐎𝐂𝐇𝐀 𝐒𝐄𝐑
-Simple whatsapp bot | Reedited from whatsasena
+Simple whatsapp user bot 
 </div>
 
 

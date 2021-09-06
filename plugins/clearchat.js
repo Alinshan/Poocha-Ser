@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 afnanplk.
-re edited by hisham-Muhammed
+re edited by alinshan
 
 Licensed under the  GPL-3.0 License;
 
@@ -41,6 +41,6 @@ Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList:
 
     await message.client.modifyChat (message.jid, ChatModification.delete);
 
-    await message.sendMessage('```🏳 Chat cleared By SOPHIA BOT😊 🏳```');
+    await message.sendMessage('```🏳 Chat cleared By BOT POOCHA SER😊 🏳```');
 
 }));

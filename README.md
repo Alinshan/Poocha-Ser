@@ -102,8 +102,8 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
   [![CYBER-DASHAMOOLAN](https://github.com/CYBER-DASHAMOOLAN.png?size=100)](https://github.com/CYBER-DASHAMOOLAN) |  
 ----|
 [<div align="center">ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  |
-    <a href="#"><img title="Poocha Ser" src="https://img.shields.io/badge/-ALINSHAN%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a> |
-Base, Bug Fixes, Modules | 
+    [<a href="#"><img title="Poocha Ser" src="https://img.shields.io/badge/-POOCHA%20SER-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>]
+ Base, Bug Fixes, Modules | 
   </div>
     
 

@@ -103,7 +103,8 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
 ----|
     </div>
     <div align="center">
-[ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  </div> |  
+[ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)|
+    </div>
     <div align="center">
 Base, Bug Fixes, Modules | 
   </div>

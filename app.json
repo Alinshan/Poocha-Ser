@@ -1,11 +1,11 @@
 {
-    "name": "Poocha-Ser",
-    "description": "Poocha-Ser -a Whatsapp userbot helping to improve your Whatsapp experience",
-    "logo": "https://www.linkpicture.com/q/poocha-ser.png",
+    "name": "WhiteDevil",
+    "description": "WhiteDevil- Whatsapp UserBot",
+    "logo": "https://i.imgur.com/kB30S41.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://www.github.com/CYBER-DASHAMOOLAN/Poocha-Ser",
-    "website":   "https://www.github.com/CYBER-DASHAMOOLAN/Poocha-Ser",
-    "success_url": "https://www.github.com/CYBER-DASHAMOOLAN",
+    "repository": "https://www.github.com/terror-boy/WhiteDevil",
+    "website":   "https://www.github.com/terror-boy/WhiteDevil",
+    "success_url": "https://www.github.com/terror-boy",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
@@ -108,7 +108,7 @@
         "MUTE_MESSAGE": {
             "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "**BOT POOCHA SER _HAD CHANGE THIS GROUP TO ALLOW ONLY ADMINS CAN SEND MESSAGE_* _HAD CHANGE THIS GROUP TO ALLOW ONLY ADMINS CAN SEND MESSAGE_*"
+            "value": "**𝙒𝙃𝙄𝙏𝙀 𝘿𝙀𝙑𝙄𝙇 𝘽𝙊𝙏 _HAD CHANGE THIS GROUP TO ALLOW ONLY ADMINS CAN SEND MESSAGE_* _HAD CHANGE THIS GROUP TO ALLOW ONLY ADMINS CAN SEND MESSAGE_*"
        },
          "THERI_LIST": {
             "description": "bad word ban...  add the bad words you dont allow in your grp (THERI_KICK must be true to run this feature , and dont change the 1st word ) example: plk-dqz,f**k,d**k",
@@ -119,7 +119,7 @@
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "*BOT POOCHA SER*"
+            "value": "*𝙒𝙃𝙄𝙏𝙀 𝘿𝙀𝙑𝙄𝙇 𝘽𝙊𝙏*"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
@@ -129,7 +129,7 @@
         "UNMUTE_MESSAGE": {
             "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
             "required": false,
-            "value": "*BOT POOCHA SER _HAD CHANGE THIS GROUP TO ALLOW ALL CAN SEND MESSAGE TO THIS GROUP_*"
+            "value": "*𝙒𝙃𝙄𝙏𝙀 𝘿𝙀𝙑𝙄𝙇 𝘽𝙊𝙏 _HAD CHANGE THIS GROUP TO ALLOW ALL CAN SEND MESSAGE TO THIS GROUP_*"
         },
         "BLOCK_MESSAGE": {
             "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",

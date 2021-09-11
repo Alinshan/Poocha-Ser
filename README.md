@@ -42,7 +42,7 @@ Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">ALINSHAN</a>
 <div align="center">
 <br>
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=CYBER-DASHAMOOLAN&repo=Poocha-Ser&theme=nightowl)]()
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=CYBER-DASHAMOOLAN&repo=Poocha-Ser&theme=nightowl)](https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser)
   </div>
     
 ## Setup

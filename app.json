@@ -1,11 +1,11 @@
 {
-    "name": "WhiteDevil",
-    "description": "WhiteDevil- Whatsapp UserBot",
+    "name": "Poocha-Ser",
+    "description": "Poocha-Ser- Whatsapp UserBot",
     "logo": "https://i.imgur.com/kB30S41.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://www.github.com/terror-boy/WhiteDevil",
-    "website":   "https://www.github.com/terror-boy/WhiteDevil",
-    "success_url": "https://www.github.com/terror-boy",
+    "repository": "https://www.github.com/CYBER-DASHAMOOLAN/Poocha-Ser",
+    "website":   "https://www.github.com/CYBER-DASHAMOOLAN/Poocha-Ser",
+    "success_url": "https://www.github.com/CYBER-DASHAMOOLAN",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {

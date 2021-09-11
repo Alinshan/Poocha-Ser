@@ -101,7 +101,7 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
     
   [![CYBER-DASHAMOOLAN](https://github.com/CYBER-DASHAMOOLAN.png?size=100)](https://github.com/CYBER-DASHAMOOLAN) |  
 ----|
-[<div align="center">]<img title="" src="https://img.shields.io/badge/-ALINSHAN-success></a>(https://github.com/CYBER-DASHAMOOLAN)  |
+[<div align="center">ALINSHAN]</a>(https://github.com/CYBER-DASHAMOOLAN)  |
  <img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp"></a> | 
   <img title="" src="https://img.shields.io/badge/-Base%2C%20Bug%20Fixes%2C%20Modules-informational"></a> | 
   </div>

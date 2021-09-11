@@ -101,7 +101,7 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
     
   [![CYBER-DASHAMOOLAN](https://github.com/CYBER-DASHAMOOLAN.png?size=100)](https://github.com/CYBER-DASHAMOOLAN) |  
 ----|
-[   ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  |  
+[         ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  |  
 Base, Bug Fixes, Modules | 
   </div>
     

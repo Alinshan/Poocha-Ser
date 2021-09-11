@@ -103,7 +103,7 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
 ----|
 [<div align="center">ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  |
  <img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp"></a>
- https://img.shields.io/badge/-Base%2C%20Bug%20Fixes%2C%20Modules-informational | 
+  src="https://img.shields.io/badge/-Base%2C%20Bug%20Fixes%2C%20Modules-informational"></a> | 
   </div>
     
 

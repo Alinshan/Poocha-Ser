@@ -1,14 +1,14 @@
 {
-  "name": "WhiteDevil",
+  "name": "Poocha-Ser",
   "version": "7.3.6",
-  "description": "WhiteDevil is the Modified Version of WhatsAsena, Made By @TERROR BOY with Baileys.",
-  "main": "./WhiteDevil/bot.js",
+  "description": "Poocha-Ser is the Modified Version of WhatsAsena, Made By @CYBER-DASHAMOOLAN with Baileys.",
+  "main": "./Poocha-Ser/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terror-boy/WhiteDevil.git"
+    "url": "git+https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser.git"
   },
   "keywords": [
     "whatsapp",
@@ -18,12 +18,12 @@
     "WhatsAsena"
   ],
   "author": "terror-boy",
-  "developer": "@terror-boy / @farhan-dqz",
+  "developer": "@CYBER-DASHAMOOLAN",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/terror-boy/WhiteDevil/issues"
+    "url": "https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser/issues"
   },
-  "homepage": "https://github.com/terror-boy/WhiteDevil#readme",
+  "homepage": "https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",

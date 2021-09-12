@@ -1,7 +1,6 @@
 /* Codded by @phaticusthiccy
-re-editted by afnanplk
-PINKY V2
-
+re-editted by alinshan
+Poocha-Ser
 */
 
 const MyPnky = require('../events');

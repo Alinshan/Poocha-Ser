@@ -51,7 +51,7 @@ Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">ALINSHAN</a>
 
   ### Simple Method
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ALINSHAN/Poocha-Ser?v=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ALINSHAN/Poocha-Ser)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser.git)
      </div>

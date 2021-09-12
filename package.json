@@ -1,14 +1,14 @@
 {
-  "name": "Pinky",
+  "name": "Poocha-Ser",
   "version": "7.3.6",
-  "description": "Pinky is the Modified Version of WhatsAsena.",
-  "main": "./Pinky_V2/bot.js",
+  "description": "Poocha-Ser - User Bot For WhatsApp.",
+  "main": "./Poocha-Ser/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afnanplk/Pinky_V.git"
+    "url": "git+https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,13 +17,13 @@
     "Pinky",
     "Afnanplk"
   ],
-  "author": "Afnanplk",
-  "developer": "@afnanplk",
+  "author": "ALinshan",
+  "developer": "@CYBER-DASHAMOOLAN",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com//afnanplk/Pinky_V/issues"
+    "url": "https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser/issues"
   },
-  "homepage": "https://github.com//afnanplk/Pinky_V#readme",
+  "homepage": "https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",

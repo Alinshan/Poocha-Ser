@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re codded by afnanplk
-PINKY V2 
+re codded by alinshan
+Poocha-Ser
 */
 
 const MyPnky = require('../events');

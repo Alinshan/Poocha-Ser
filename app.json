@@ -8,7 +8,7 @@
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "POOCHA-SER_SESSION": {
+        "POOCHA_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
@@ -80,7 +80,7 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "Z_POOCHA-SER_AI": {
+        "Z_POOCHA_AI": {
             "description": "turn on chat back auto reply pinky (use true to on and fale to off)",
             "required": true,
             "value": "true"
@@ -88,12 +88,12 @@
         "Z_BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply poocha ser to identify)",
             "required": false,
-            "value": "PINKY"
+            "value": "POOCHA SER"
         },
         "Z_DEP_NAME": {
             "description": "bot deployer name make it short  (for auto reply poocha ser to identify)",
             "required": false,
-            "value": "plk"
+            "value": "alin"
         },
         "Z_DEP_REPLY": {
             "description": "enter the reply message you want when deployer name is typed by users  (for auto reply poocha ser to identify)",

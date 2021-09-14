@@ -1,7 +1,7 @@
-/* Codded by @PLK
-HEHE
+/* Codded by @ALINSHAN
+
 */
-const MyPnky = require('../events');
+const Mybot = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const { requestLyricsFor, requestAuthorFor, requestTitleFor, requestIconFor } = require("solenolyrics");
@@ -24,7 +24,7 @@ const nobs = "no"
 
 if (cn.WORKTYPE == 'private') {
 
-    MyPnky.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: 'instagram profile' }, async (message, match) => {
+    Mybot.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: 'instagram profile' }, async (message, match) => {
 
         const userName = match[1]
 
@@ -51,7 +51,7 @@ if (cn.WORKTYPE == 'private') {
 
 else if (cn.WORKTYPE == 'public') {
 
-    MyPnky.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: 'instagram profile' }, async (message, match) => {
+    Mybot.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: 'instagram profile' }, async (message, match) => {
 
         const userName = match[1]
 

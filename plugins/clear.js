@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
-const MyPnky = require('../events');
+const Mybot = require('../events');
 const Config = require('../config');
 
 const Language = require('../language');
@@ -21,7 +21,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-MyPnky.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage('```cleaning chat...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);

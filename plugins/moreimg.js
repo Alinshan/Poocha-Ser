@@ -1,8 +1,8 @@
-/* Codded by @afnanplk - farhandqz
-PINKY V2
+/* Codded by @alinshan
+Poocha-Ser
 */
 
-const MyPnky = require('../events');
+const Mybot = require('../events');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -10,13 +10,13 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-MyPnky.addCommand({pattern: 'moretxt', fromMe: true, desc: 'more txtit commands'}, (async (message, match) => {
+Mybot.addCommand({pattern: 'moretxt', fromMe: true, desc: 'more txtit commands'}, (async (message, match) => {
   
   await message.sendMessage('\n\n\n📱command : .break\n💎desc : change your text to wall breaking image.\n\n📱command : .phub\n💎desc : change your text into pornhub logo.\n🏷️example : .phuh BOT;X.\n\n📱command : .blood\n💎desc : change your text frozen blood on a glass\n\n📱command : .1917\n💎desc : change your text to a 1917 model image\n\n📱command : .maskman\n💎desc : change your text to mask man bg\n🏷️example : .avengers its;BOT X.\n\n📱command : .boxed\n💎desc : change your text to 3d boxed design\n\n📱command : .window\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : .holo\n💎desc : change your text to holo design\n\n📱command : .drop\n💎desc : change your text into rain water drop.n\n📱command : .flame\n💎desc : text with fire effect.\n\n📱command : .vtext\n💎desc : text to video.\n\n📱command : .ptext\n💎desc : text to video.\n\n📱command : .colortext\n💎desc : text to colorfull video\n\n📱command : .cloud\n💎desc : text on cloud\n\n📱command : .2ninja\n💎desc : random ninja logo with given name.');
   
 }));
 
-MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -26,7 +26,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
   
-  MyPnky.addCommand({pattern: 'phub ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: 'phub ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -43,7 +43,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
   
-   MyPnky.addCommand({pattern: 'blood ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'blood ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -53,7 +53,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
   
-  MyPnky.addCommand({pattern: '1917 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: '1917 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -63,7 +63,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
   
-   MyPnky.addCommand({ pattern: 'maskman?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+   Mybot.addCommand({ pattern: 'maskman?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -74,7 +74,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
     }));
   
    
-         MyPnky.addCommand({pattern: 'boxed ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+         Mybot.addCommand({pattern: 'boxed ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -84,7 +84,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
   
-  MyPnky.addCommand({pattern: 'ffire ?(.*)', fromMe: true, dontAddCommandList: false, desc: 'add your text to random freefire logo'}, (async (message, match) => {
+  Mybot.addCommand({pattern: 'ffire ?(.*)', fromMe: true, dontAddCommandList: false, desc: 'add your text to random freefire logo'}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -94,7 +94,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
   
-  MyPnky.addCommand({pattern: 'window ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: 'window ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -104,7 +104,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
   
-   MyPnky.addCommand({pattern: 'skywal ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'skywal ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -114,7 +114,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
   
-   MyPnky.addCommand({pattern: 'holo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'holo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -124,7 +124,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
 
-    MyPnky.addCommand({pattern: '2ninja ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: '2ninja ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -134,7 +134,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
    }));
   
-   MyPnky.addCommand({pattern: 'drop ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'drop ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -143,7 +143,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
     }));
-   MyPnky.addCommand({pattern: 'cloud ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'cloud ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -153,7 +153,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
 
- MyPnky.addCommand({pattern: 'emo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+ Mybot.addCommand({pattern: 'emo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         
@@ -170,7 +170,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
   
     }));
 
-    MyPnky.addCommand({pattern: 'flame ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'flame ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -190,7 +190,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
 
-    MyPnky.addCommand({pattern: 'ptext ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'ptext ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -200,7 +200,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
     }));
 
-    MyPnky.addCommand({pattern: 'colortext ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'colortext ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -213,13 +213,13 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 else if (Config.WORKTYPE == 'public') {
 
-MyPnky.addCommand({pattern: 'moretxt', fromMe: false, desc: 'more txtit commands'}, (async (message, match) => {
+Mybot.addCommand({pattern: 'moretxt', fromMe: false, desc: 'more txtit commands'}, (async (message, match) => {
   
   await message.sendMessage('\n\n\n📱command : .break\n💎desc : change your text to wall breaking image.\n\n📱command : .phub\n💎desc : change your text into pornhub logo.\n🏷️example : .phuh BOT;X.\n\n📱command : .blood\n💎desc : change your text frozen blood on a glass\n\n📱command : .1917\n💎desc : change your text to a 1917 model image\n\n📱command : .avengers\n💎desc : change your text to avangers logo\n🏷️example : .avengers its;BOT X.\n\n📱command : .boxed\n💎desc : change your text to 3d boxed design\n\n📱command : .window\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : .holo\n💎desc : change your text to holo design\n\n📱command : .drop\n💎desc : change your text into rain water drop.n\n📱command : .flame\n💎desc : text with fire effect.\n\n📱command : .vtext\n💎desc : text to video.\n\n📱command : .ptext\n💎desc : text to video.\n\n📱command : .colortext\n💎desc : text to colorfull video\n\n📱command : .cloud\n💎desc : text on cloud\n\n📱command : .2ninja\n💎desc : random ninja logo with given name.');
   
 }));
 
-MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -229,7 +229,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
 }));
   
-  MyPnky.addCommand({pattern: 'phub ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: 'phub ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -246,7 +246,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
   
-   MyPnky.addCommand({pattern: 'blood ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'blood ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -256,7 +256,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
   
-  MyPnky.addCommand({pattern: '1917 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: '1917 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -266,7 +266,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
   
-   MyPnky.addCommand({ pattern: 'maskman?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+   Mybot.addCommand({ pattern: 'maskman?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -277,7 +277,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     }));
   
    
-         MyPnky.addCommand({pattern: 'boxed ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+         Mybot.addCommand({pattern: 'boxed ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -297,7 +297,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
 }));
   
-  MyPnky.addCommand({pattern: 'window ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Mybot.addCommand({pattern: 'window ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -307,7 +307,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
   
-   MyPnky.addCommand({pattern: 'skywal ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'skywal ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -317,7 +317,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
 }));
   
-   MyPnky.addCommand({pattern: 'holo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'holo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -327,7 +327,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
 
-    MyPnky.addCommand({pattern: '2ninja ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: '2ninja ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -346,7 +346,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
     }));
-   MyPnky.addCommand({pattern: 'cloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Mybot.addCommand({pattern: 'cloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -356,7 +356,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
 
- MyPnky.addCommand({pattern: 'emo ?(.*)', fromMe: false, desc: 'emogi to png'}, (async (message, match) => {
+ Mybot.addCommand({pattern: 'emo ?(.*)', fromMe: false, desc: 'emogi to png'}, (async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         
@@ -373,7 +373,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
   
     }));
 
-    MyPnky.addCommand({pattern: 'flame ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'flame ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -383,7 +383,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
 
-    MyPnky.addCommand({pattern: 'vtext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'vtext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -393,7 +393,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
 
-    MyPnky.addCommand({pattern: 'ptext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'ptext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -403,7 +403,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     }));
 
-    MyPnky.addCommand({pattern: 'colortext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Mybot.addCommand({pattern: 'colortext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 

@@ -1,7 +1,7 @@
 /* created by afnanplk
 */
 
-const MyPnky = require('../events');
+const Mybot = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
@@ -13,7 +13,7 @@ const Lang = Language.getString('weather');
 
 if (Config.WORKTYPE == 'private') {
 	
-MyPnky.addCommand({pattern: 'device ?(.*)', fromMe: true, desc: Lang.DEVICE , dontAddCommandList: true }, async (message, match) => {
+Mybot.addCommand({pattern: 'device ?(.*)', fromMe: true, desc: Lang.DEVICE , dontAddCommandList: true }, async (message, match) => {
 	const url = `https://docs-jojo.herokuapp.com/api/gsm_arena?q=${match[1]}`;
 	try {
 		const response = await got(url);
@@ -29,7 +29,7 @@ MyPnky.addCommand({pattern: 'device ?(.*)', fromMe: true, desc: Lang.DEVICE , do
 
 else if (Config.WORKTYPE == 'public') {
 	
-MyPnky.addCommand({pattern: 'device ?(.*)', fromMe: false, desc: Lang.DEVICE , dontAddCommandList: true }, async (message, match) => {
+Mybot.addCommand({pattern: 'device ?(.*)', fromMe: false, desc: Lang.DEVICE , dontAddCommandList: true }, async (message, match) => {
 	const url = `https://docs-jojo.herokuapp.com/api/gsm_arena?q=${match[1]}`;
 	try {
 		const response = await got(url);

@@ -8,7 +8,7 @@ Don't use it for illegal purposes.
 
 const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
 
-const MyPnky = require('../events');
+const Mybot = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -32,7 +32,7 @@ if (Config.LANG == 'ES') desc_msg = 'Muestra herramientas de creación de textos
 if (os.userInfo().homedir !== clh.pay) return;
 let wk = Config.WORKTYPE == 'public' ? false : true
 
-MyPnky.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
+Mybot.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
     var t1 = ''
     var t2 = ''
     var t3 = ''
@@ -163,7 +163,7 @@ MyPnky.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messa
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch plk;pinky'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
-MyPnky.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -182,7 +182,7 @@ MyPnky.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -201,7 +201,7 @@ MyPnky.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -229,7 +229,7 @@ MyPnky.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -248,7 +248,7 @@ MyPnky.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/neon-text-effect-online-879.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -267,7 +267,7 @@ MyPnky.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/thunder-text-effect-online-881.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -286,7 +286,7 @@ MyPnky.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/create-logo-joker-online-934.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -305,7 +305,7 @@ MyPnky.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -333,7 +333,7 @@ MyPnky.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/advanced-glow-text-effect-873.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -352,7 +352,7 @@ MyPnky.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: tru
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/bokeh-text-effect-876.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -371,7 +371,7 @@ MyPnky.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -399,7 +399,7 @@ MyPnky.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true
           } 
     });
 }));
-MyPnky.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -427,7 +427,7 @@ MyPnky.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: tru
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -455,7 +455,7 @@ MyPnky.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: tr
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -483,7 +483,7 @@ MyPnky.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -511,7 +511,7 @@ MyPnky.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -539,7 +539,7 @@ MyPnky.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -567,7 +567,7 @@ MyPnky.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: '3neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: '3neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/neon-text-effect-online-963.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -586,7 +586,7 @@ MyPnky.addCommand({pattern: '3neon ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'ice ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'ice ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/ice-cold-text-effect-862.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -605,7 +605,7 @@ MyPnky.addCommand({pattern: 'ice ?(.*)', fromMe: wk, dontAddCommandList: true}, 
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
@@ -633,7 +633,7 @@ MyPnky.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'smoke ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'smoke ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.photooxy("https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -652,7 +652,7 @@ MyPnky.addCommand({pattern: 'smoke ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'glow ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'glow ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var download = async(uri, filename, callback) => {
         await request.head(uri, async(err, res, body) => {    
             await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
@@ -682,7 +682,7 @@ MyPnky.addCommand({pattern: 'fire ?(.*)', fromMe: wk, dontAddCommandList: true},
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'harry ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'harry ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/create-harry-potter-text-on-horror-background-178.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -701,7 +701,7 @@ MyPnky.addCommand({pattern: 'harry ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: '4neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: '4neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -720,7 +720,7 @@ MyPnky.addCommand({pattern: '4neon ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -739,7 +739,7 @@ MyPnky.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: tr
           } 
     });
 }));
-MyPnky.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Mybot.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html",
         `${match[1]}`
         ).then(async (data) => { 

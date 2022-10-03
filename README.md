@@ -23,11 +23,11 @@ Simple whatsapp user bot
 <a href="#"><img title="Poocha Ser" src="https://img.shields.io/badge/-POOCHA%20SER-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/CYBER-DASHAMOOLAN"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp">
+<a href="https://github.com/Alinshan"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp">
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">ALINSHAN</a>
+Project created by <a href="https://github.com/Alinshan">ALINSHAN</a>
     <br>
        | © |
         Reserved |
@@ -42,7 +42,7 @@ Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">ALINSHAN</a>
 <div align="center">
 <br>
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=CYBER-DASHAMOOLAN&repo=Poocha-Ser&theme=nightowl)](https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Alinshan&repo=Poocha-Ser&theme=nightowl)](https://github.com/Alinshan/Poocha-Ser)
   </div>
     
 ## Setup
@@ -53,7 +53,7 @@ Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">ALINSHAN</a>
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ALINSHAN/Poocha-Ser?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Alinshan/Poocha-Ser.git)
      </div>
 <br>
 <br >
@@ -68,7 +68,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser
+$ git clone https://github.com/Alinshan/Poocha-Ser
 $ cd Poocha-Ser
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -78,7 +78,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/CYBER-DASHAMOOLAN/Poocha-Ser
+$ git clone https://github.com/Alinshan/Poocha-Ser
 $ cd Poocha-Ser
 $ chmod +x *
 $ npm i
@@ -99,9 +99,9 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
 ## Developers
   <div align="center">
       
-  [![CYBER-DASHAMOOLAN](https://github.com/CYBER-DASHAMOOLAN.png?size=350)](https://github.com/CYBER-DASHAMOOLAN) |  
+  [![ALINSHAN](https://github.com/Alinshan.png?size=350)](https://github.com/Alinshan) |  
 ----|
-[<div align="center">ALINSHAN](https://github.com/CYBER-DASHAMOOLAN)  |    
+[<div align="center">ALINSHAN](https://github.com/Alinshan)  |    
 Base, Bug Fixes, Modules  |
 
 </div>

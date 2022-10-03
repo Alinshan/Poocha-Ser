@@ -99,7 +99,7 @@ By establishing the bot, you are deemed to have accepted these responsibilities.
 ## Developer
   <div align="center">
       
-  [![ALINSHAN](https://github.com/Alinshan.png?size=300)](https://github.com/Alinshan) |  
+  [![ALINSHAN](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |  
 ----|
 [<div align="center">ALINSHAN](https://github.com/Alinshan)  |    
 Base, Bug Fixes, Modules  |

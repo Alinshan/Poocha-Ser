@@ -96,10 +96,10 @@ Absolutely, Developers do not accept responsibility.
 By establishing the bot, you are deemed to have accepted these responsibilities.
 ```
 
-## Developers
+## Developer
   <div align="center">
       
-  [![ALINSHAN](https://github.com/Alinshan.png?size=350)](https://github.com/Alinshan) |  
+  [![ALINSHAN](https://github.com/Alinshan.png?size=300)](https://github.com/Alinshan) |  
 ----|
 [<div align="center">ALINSHAN](https://github.com/Alinshan)  |    
 Base, Bug Fixes, Modules  |
